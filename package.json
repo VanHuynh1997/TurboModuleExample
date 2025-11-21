@@ -1,7 +1,6 @@
 {
   "name": "turbo_module_example",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -49,7 +48,7 @@
   "engines": {
     "node": ">=18"
   },
-  "description": "This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).",
+  "description": "native local storage for android and ios",
   "main": "index.js",
   "keywords": [],
   "author": "",
