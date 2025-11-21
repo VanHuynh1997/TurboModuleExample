@@ -13,6 +13,19 @@
     "react": "19.0.0",
     "react-native": "0.79.7"
   },
+  "codegenConfig": {
+     "name": "NativeLocalStorageSpec",
+     "type": "modules",
+     "jsSrcsDir": "specs",
+     "android": {
+       "javaPackageName": "com.nativelocalstorage"
+     },
+     "ios": {
+        "modulesProvider": {
+          "NativeLocalStorage": "RCTNativeLocalStorage"
+        }
+     }
+   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
