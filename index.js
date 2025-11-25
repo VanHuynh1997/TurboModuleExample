@@ -8,4 +8,7 @@
 
 // AppRegistry.registerComponent(appName, () => App);
 
-export {default as NativeLocalStorage} from './specs/NativeLocalStorage';
+import NativeLocalStorage from './specs/NativeLocalStorage';
+
+export {NativeLocalStorage};
+export default NativeLocalStorage;
