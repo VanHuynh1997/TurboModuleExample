@@ -1,31 +1,16 @@
-# # DO NOT PUBLISH THESE
-
-# # Native build folders
-# android/
-# ios/
-
-# # Expo / caches
-# .expo/
-# .expo-shared/
-
-# # Node
-# node_modules/
-
-# # Build outputs
-# dist/
-# build/
-# out/
-# tmp/
-
-# # IDE files
-# *.xcworkspace/
-# *.xcuserstate
-# *.swp
-# .vscode/
-# .idea/
-
-# # Logs
-# *.log
-
-# # Metro, OS junk
-# *.DS_Store
+# .npmignore
+node_modules/
+src/
+tests/
+docs/
+examples/
+*.log
+*.tmp
+build/
+dist/
+*.map
+*.ts
+!*.d.ts
+.coverage
+.nyc_output
+.cache
