@@ -8,6 +8,17 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "files": [
+    "android/",
+    "ios/",
+    "dist/",
+    "lib/",
+    "*.podspec",
+    "!android/build/",
+    "!ios/build/",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "react": "19.0.0",
     "react-native": "0.79.7"
