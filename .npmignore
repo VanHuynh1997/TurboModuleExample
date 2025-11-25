@@ -1,31 +1,31 @@
-# DO NOT PUBLISH THESE
+# # DO NOT PUBLISH THESE
 
-# Native build folders
-android/
-ios/
+# # Native build folders
+# android/
+# ios/
 
-# Expo / caches
-.expo/
-.expo-shared/
+# # Expo / caches
+# .expo/
+# .expo-shared/
 
-# Node
-node_modules/
+# # Node
+# node_modules/
 
-# Build outputs
-dist/
-build/
-out/
-tmp/
+# # Build outputs
+# dist/
+# build/
+# out/
+# tmp/
 
-# IDE files
-*.xcworkspace/
-*.xcuserstate
-*.swp
-.vscode/
-.idea/
+# # IDE files
+# *.xcworkspace/
+# *.xcuserstate
+# *.swp
+# .vscode/
+# .idea/
 
-# Logs
-*.log
+# # Logs
+# *.log
 
-# Metro, OS junk
-*.DS_Store
+# # Metro, OS junk
+# *.DS_Store
